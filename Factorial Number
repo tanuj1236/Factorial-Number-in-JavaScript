@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <input type="number" id="msg">
+    <button onclick="btn()">submit</button>
+</head>
+<body>
+        <script>
+        function btn()
+        {
+        var fact = document.getElementById("msg").value;
+        var n=1;
+        for(let i=1;i<=fact;i++)
+        {
+            n=n*i;
+        }
+         document.write(n);
+    }
+        </script>
+</body>
+</html>
